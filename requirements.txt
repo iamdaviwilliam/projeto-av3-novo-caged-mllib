@@ -1,0 +1,3 @@
+# Dependências do Projeto Novo CAGED - PySpark MLlib (Região Nordeste)
+pyspark>=3.3.0
+py7zr>=0.20.0

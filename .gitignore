@@ -1,0 +1,37 @@
+# Python & Ambientes Virtuais
+.venv/
+env/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Dados Brutos Pesados (Obrigatório Ignorar)
+data/raw/
+data/**/*.7z
+data/**/*.txt
+*.7z
+*.txt
+
+# Hadoop Winutils Local
+hadoop/
+
+# Logs e Temporários de Tarefa
+*.log
+scratch/
+.system_generated/
+
+# Manter Arquivos Importantes do Projeto
+!notebooks/pipeline_mllib.ipynb
+!README.md
+!data/README.md
+!silver/
+!models/
+!outputs/
+!requirements.txt
+!pyproject.toml
+!uv.lock

@@ -1,0 +1,11 @@
+[project]
+name = "av3bigdata"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=2.5.2",
+    "py7zr>=1.1.3",
+    "pyspark>=4.2.0",
+]
