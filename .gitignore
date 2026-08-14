@@ -1,37 +1,126 @@
-# Python & Ambientes Virtuais
+# ==================================================
+# Python / Ambientes Virtuais
+# ==================================================
+
 .venv/
 env/
 venv/
+
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Jupyter Notebook Checkpoints
+
+# ==================================================
+# Jupyter
+# ==================================================
+
 .ipynb_checkpoints/
 
-# Dados Brutos Pesados (Obrigatório Ignorar)
-data/raw/
-data/**/*.7z
-data/**/*.txt
-*.7z
-*.txt
+# Notebook auxiliar / antigo
+main.ipynb
 
-# Hadoop Winutils Local
+# Backups do notebook principal
+notebooks/*backup*.ipynb
+notebooks/*Backup*.ipynb
+
+
+# ==================================================
+# Dados Brutos do Novo CAGED
+# ==================================================
+
+data/raw/
+
+data/**/*.7z
+data/**/*.zip
+data/**/*.txt
+
+*.7z
+*.zip
+
+
+# ==================================================
+# Hadoop / Winutils local
+# ==================================================
+
 hadoop/
 
-# Logs e Temporários de Tarefa
+
+# ==================================================
+# Modelos Spark salvos
+# ==================================================
+# Os modelos geram muitos arquivos internos e são opcionais
+# para a entrega. As métricas e resultados continuam no notebook.
+
+models/
+
+
+# ==================================================
+# Outputs intermediários pesados
+# ==================================================
+
+outputs/target_audit/
+outputs/target_audit_nordeste/
+outputs/test_parquet/
+outputs/nordeste_monthly/
+
+
+# ==================================================
+# Arquivos temporários do Spark / Hadoop
+# ==================================================
+
+*.crc
+
+
+# ==================================================
+# Logs e temporários
+# ==================================================
+
 *.log
 scratch/
 .system_generated/
 
-# Manter Arquivos Importantes do Projeto
-!notebooks/pipeline_mllib.ipynb
+
+# ==================================================
+# IDE / Sistema operacional
+# ==================================================
+
+.vscode/
+.idea/
+
+Thumbs.db
+.DS_Store
+
+
+# ==================================================
+# ARQUIVOS IMPORTANTES QUE DEVEM SER VERSIONADOS
+# ==================================================
+
 !README.md
-!data/README.md
-!silver/
-!models/
-!outputs/
 !requirements.txt
 !pyproject.toml
 !uv.lock
+!.python-version
+
+# Notebook final
+!notebooks/
+!notebooks/pipeline_mllib.ipynb
+
+# Documentação dos dados
+!data/
+!data/README.md
+
+# Camada Silver exigida na entrega
+!silver/
+!silver/**
+
+# Resultados pequenos e úteis
+!outputs/
+!outputs/*.json
+!outputs/metrics/
+!outputs/metrics/**
+
+# Scripts do projeto
+!scripts/
+!scripts/**

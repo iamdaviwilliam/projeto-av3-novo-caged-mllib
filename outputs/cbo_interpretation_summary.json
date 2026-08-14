@@ -1,0 +1,104 @@
+{
+  "variavel_ocupacional": "cbo2002ocupação (bruto 6 dígitos) e GRUPO_CBO (agregado 2 dígitos)",
+  "cardinalidade_cbo_bruto": 2562,
+  "cardinalidade_grupo_cbo": 46,
+  "top_10_volume": [
+    {
+      "grupo_cbo": "51",
+      "volume": 3342986
+    },
+    {
+      "grupo_cbo": "52",
+      "volume": 2450154
+    },
+    {
+      "grupo_cbo": "41",
+      "volume": 2260009
+    },
+    {
+      "grupo_cbo": "71",
+      "volume": 2179022
+    },
+    {
+      "grupo_cbo": "78",
+      "volume": 1697969
+    },
+    {
+      "grupo_cbo": "42",
+      "volume": 1441866
+    },
+    {
+      "grupo_cbo": "62",
+      "volume": 1085308
+    },
+    {
+      "grupo_cbo": "76",
+      "volume": 440354
+    },
+    {
+      "grupo_cbo": "72",
+      "volume": 405451
+    },
+    {
+      "grupo_cbo": "35",
+      "volume": 356616
+    }
+  ],
+  "top_10_alta_rotatividade": [
+    {
+      "grupo_cbo": "52",
+      "pct_classe_1": 61.81581233709817,
+      "coortes": 13812
+    },
+    {
+      "grupo_cbo": "84",
+      "pct_classe_1": 56.355932203389834,
+      "coortes": 1416
+    },
+    {
+      "grupo_cbo": "35",
+      "pct_classe_1": 56.16081018873715,
+      "coortes": 6517
+    },
+    {
+      "grupo_cbo": "24",
+      "pct_classe_1": 55.41871921182266,
+      "coortes": 406
+    },
+    {
+      "grupo_cbo": "34",
+      "pct_classe_1": 55.319148936170215,
+      "coortes": 470
+    },
+    {
+      "grupo_cbo": "76",
+      "pct_classe_1": 55.053598774885145,
+      "coortes": 2612
+    },
+    {
+      "grupo_cbo": "64",
+      "pct_classe_1": 54.331683168316836,
+      "coortes": 808
+    },
+    {
+      "grupo_cbo": "81",
+      "pct_classe_1": 54.32692307692307,
+      "coortes": 416
+    },
+    {
+      "grupo_cbo": "63",
+      "pct_classe_1": 54.17298937784521,
+      "coortes": 659
+    },
+    {
+      "grupo_cbo": "39",
+      "pct_classe_1": 53.42560553633218,
+      "coortes": 1445
+    }
+  ],
+  "padroes_por_secao": "Setores G (Comércio), C (Indústria) e N (Serviços Administrativos) concentram maior vulnerabilidade",
+  "padroes_por_uf": "BA, PE e CE concentram maior volume; AL e MA apresentam picos de alta rotatividade em coortes agrícolas/serviços",
+  "padroes_por_faixa_etaria": "Faixas de 18-24 anos e 65+ anos apresentam maior associação com rotatividade futura",
+  "consistencia_com_feature_importance": "SIM. A ausência de CBO no modelo final justifica-se para evitar esparsidade (cardinalidade 2400+), enquanto Seção, UF e Faixa Etária atuaram como ótimos proxies de volatilidade setorial.",
+  "notebook_salvo": true
+}

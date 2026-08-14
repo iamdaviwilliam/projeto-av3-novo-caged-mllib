@@ -1,0 +1,2 @@
+model,auc_roc,accuracy,precision_pos,recall_pos,f1_pos,specificity,training_time,seed
+logistic_regression_nordeste,0.872549,0.788950,0.770441,0.832740,0.800380,0.743721,14.605,42

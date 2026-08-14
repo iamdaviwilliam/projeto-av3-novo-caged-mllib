@@ -1,0 +1,61 @@
+{
+  "target_col": "ALTA_ROTATIVIDADE_6M",
+  "features_categoricas": [
+    "uf",
+    "seção",
+    "FAIXA_ETARIA",
+    "FAIXA_VOLUME_COORTE"
+  ],
+  "features_numericas": [
+    "N_TOTAL_T",
+    "N_POSITIVOS_T",
+    "N_NEGATIVOS_T",
+    "LOG_VOLUME_COORTE",
+    "PROP_NEGATIVOS_T",
+    "ANO",
+    "MES",
+    "TRIMESTRE",
+    "MES_SIN",
+    "MES_COS"
+  ],
+  "total_features_originais": 14,
+  "dimensao_vector_features": 52,
+  "seed": 42,
+  "total_registros": 33465,
+  "treino": {
+    "count": 23510,
+    "percentual": 70.25250261467204,
+    "c0_pct": 50.24245002126755,
+    "c1_pct": 49.75754997873245
+  },
+  "teste": {
+    "count": 9955,
+    "percentual": 29.747497385327954,
+    "c0_pct": 49.191361125062784,
+    "c1_pct": 50.808638874937216
+  },
+  "baseline": {
+    "accuracy": 0.4919136112506278,
+    "precision_1": 0.0,
+    "recall_1": 0.0,
+    "f1_1": 0.0
+  },
+  "logistic_regression": {
+    "auc_roc": 0.8725577259275354,
+    "accuracy": 0.7889502762430939,
+    "precision_1": 0.770440826778855,
+    "recall_1": 0.8327402135231317,
+    "f1_1": 0.8003800475059383,
+    "specificity": 0.7437206452930365
+  },
+  "matriz": {
+    "tn": 3642,
+    "fp": 1255,
+    "fn": 846,
+    "tp": 4212
+  },
+  "tempo_treino_lr": 15.46535670000003,
+  "modelo_salvo": "SIM",
+  "metricas_salvas": "SIM",
+  "notebook_salvo": true
+}

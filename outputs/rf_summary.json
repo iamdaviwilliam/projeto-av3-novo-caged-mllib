@@ -1,0 +1,39 @@
+{
+  "rf_params": {
+    "numTrees": 30,
+    "maxDepth": 8,
+    "seed": 42
+  },
+  "auc_rf": 0.8812543335373785,
+  "accuracy_rf": 0.7856353591160221,
+  "precision_rf": 0.7576665491716602,
+  "recall_rf": 0.8499406880189798,
+  "f1_rf": 0.8011554230339173,
+  "specificity_rf": 0.7192158464365939,
+  "matriz_rf": {
+    "tn": 3522,
+    "fp": 1375,
+    "fn": 759,
+    "tp": 4299
+  },
+  "tempo_lr": 15.840327299999899,
+  "tempo_rf": 9.604842499999904,
+  "modelo_recomendado": "RandomForestClassifier",
+  "top_5_rf": [
+    "PROP_NEGATIVOS_T (0.1941)",
+    "FAIXA_ETARIA_ohe_18-24 (0.1719)",
+    "FAIXA_ETARIA_ohe_65+ (0.1716)",
+    "FAIXA_ETARIA_ohe_14-17 (0.1329)",
+    "FAIXA_ETARIA_ohe_55-64 (0.0918)"
+  ],
+  "top_5_lr": [
+    "FAIXA_ETARIA_ohe_14-17 (-2.9977)",
+    "FAIXA_ETARIA_ohe_65+ (+2.6861)",
+    "FAIXA_ETARIA_ohe_18-24 (-2.6155)",
+    "seção_ohe_G (+1.7080)",
+    "FAIXA_ETARIA_ohe_55-64 (+1.5706)"
+  ],
+  "modelo_rf_salvo": "SIM",
+  "metricas_atualizadas": "SIM",
+  "notebook_salvo": true
+}

@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.OneHotEncoderModel","timestamp":1786637768323,"sparkVersion":"4.2.0","uid":"OneHotEncoder_f2cdf0c28ee2","paramMap":{"inputCol":"FAIXA_ETARIA_idx","outputCol":"FAIXA_ETARIA_ohe"},"defaultParamMap":{"dropLast":true,"handleInvalid":"error","outputCol":"OneHotEncoder_f2cdf0c28ee2__output"}}

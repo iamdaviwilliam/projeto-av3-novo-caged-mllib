@@ -1,0 +1,5 @@
+model,auc_roc,accuracy,precision_pos,recall_pos,f1_pos,specificity,training_time_sec,seed
+Baseline (Majoritária),0.000000,0.491914,0.000000,0.000000,0.000000,1.000000,0.000,42
+Logistic Regression,0.872547,0.788950,0.770441,0.832740,0.800380,0.743721,18.483,42
+Random Forest,0.881258,0.785635,0.757667,0.849941,0.801155,0.719216,9.433,42
+Random Forest (Tuned),0.881262,0.785635,0.757667,0.849941,0.801155,0.719216,53.954,42

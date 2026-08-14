@@ -1,0 +1,113 @@
+{
+  "modelo_base_escolhido": "RandomForestClassifier",
+  "metrica_tuning": "areaUnderROC",
+  "metodo": "TrainValidationSplit",
+  "train_ratio_interno": 0.7,
+  "numero_combinacoes": 8,
+  "parametros_testados": {
+    "numTrees": [
+      20,
+      30
+    ],
+    "maxDepth": [
+      5,
+      8
+    ],
+    "minInstancesPerNode": [
+      1,
+      5
+    ]
+  },
+  "melhores_parametros": {
+    "numTrees": 30,
+    "maxDepth": 8,
+    "minInstancesPerNode": 1
+  },
+  "antes": {
+    "auc": 0.8812568366636631,
+    "accuracy": 0.7856353591160221,
+    "precision": 0.7576665491716602,
+    "recall": 0.8499406880189798,
+    "f1": 0.8011554230339173,
+    "specificity": 0.7192158464365939
+  },
+  "depois": {
+    "auc": 0.8812543335373788,
+    "accuracy": 0.7856353591160221,
+    "precision": 0.7576665491716602,
+    "recall": 0.8499406880189798,
+    "f1": 0.8011554230339173,
+    "specificity": 0.7192158464365939
+  },
+  "diferencas": {
+    "auc": -2.5031262842478696e-06,
+    "accuracy": 0.0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  "tempo_base": 15.964585900000202,
+  "tempo_tuning": 52.80046859999993,
+  "fator_custo": 3.3073497133426595,
+  "tuning_valeu_a_pena": "RESULTADO MISTO",
+  "modelo_tuned_salvo": "SIM",
+  "notebook_salvo": true,
+  "comb_results": [
+    {
+      "comb": 1,
+      "numTrees": 20,
+      "maxDepth": 5,
+      "minInstances": 1,
+      "auc_val": 0.8652361680324477
+    },
+    {
+      "comb": 2,
+      "numTrees": 20,
+      "maxDepth": 5,
+      "minInstances": 5,
+      "auc_val": 0.8688888690037072
+    },
+    {
+      "comb": 3,
+      "numTrees": 20,
+      "maxDepth": 8,
+      "minInstances": 1,
+      "auc_val": 0.8808924354112679
+    },
+    {
+      "comb": 4,
+      "numTrees": 20,
+      "maxDepth": 8,
+      "minInstances": 5,
+      "auc_val": 0.8824211502782932
+    },
+    {
+      "comb": 5,
+      "numTrees": 30,
+      "maxDepth": 5,
+      "minInstances": 1,
+      "auc_val": 0.8662914498353177
+    },
+    {
+      "comb": 6,
+      "numTrees": 30,
+      "maxDepth": 5,
+      "minInstances": 5,
+      "auc_val": 0.8677714045766407
+    },
+    {
+      "comb": 7,
+      "numTrees": 30,
+      "maxDepth": 8,
+      "minInstances": 1,
+      "auc_val": 0.8825092664952565
+    },
+    {
+      "comb": 8,
+      "numTrees": 30,
+      "maxDepth": 8,
+      "minInstances": 5,
+      "auc_val": 0.882392648182726
+    }
+  ]
+}

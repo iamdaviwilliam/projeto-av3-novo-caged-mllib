@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.StringIndexerModel","timestamp":1786638236748,"sparkVersion":"4.2.0","uid":"StringIndexer_a7275d76ec83","paramMap":{"handleInvalid":"keep","inputCol":"FAIXA_VOLUME_COORTE","outputCol":"FAIXA_VOLUME_COORTE_idx"},"defaultParamMap":{"handleInvalid":"error","outputCol":"StringIndexer_a7275d76ec83__output","stringOrderType":"frequencyDesc"}}

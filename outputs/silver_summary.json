@@ -1,0 +1,51 @@
+{
+  "n_inicial": 33465,
+  "n_final": 33465,
+  "percentual_mantido": 100.0,
+  "features_categoricas": [
+    "uf",
+    "seção",
+    "FAIXA_ETARIA",
+    "FAIXA_VOLUME_COORTE"
+  ],
+  "features_numericas": [
+    "N_TOTAL_T",
+    "N_POSITIVOS_T",
+    "N_NEGATIVOS_T",
+    "LOG_VOLUME_COORTE",
+    "PROP_NEGATIVOS_T",
+    "ANO",
+    "MES",
+    "TRIMESTRE",
+    "MES_SIN",
+    "MES_COS"
+  ],
+  "features_engenheiradas": [
+    "LOG_VOLUME_COORTE",
+    "PROP_NEGATIVOS_T",
+    "FAIXA_VOLUME_COORTE",
+    "ANO",
+    "MES",
+    "TRIMESTRE",
+    "MES_SIN",
+    "MES_COS"
+  ],
+  "total_features": 14,
+  "features_proibidas": [
+    "N_NEGATIVOS_6M",
+    "N_POSITIVOS_6M",
+    "N_TOTAL_6M",
+    "PROP_NEGATIVOS_6M"
+  ],
+  "target": "ALTA_ROTATIVIDADE_6M",
+  "target_classe_0_pct": 49.929777379351556,
+  "target_classe_1_pct": 50.070222620648444,
+  "filtros_aplicados": "Nenhum (0% removido; 100% dos dados mantidos)",
+  "tratamento_outliers": "Sem teto arbitrário; log1p aplicado ao volume da coorte (LOG_VOLUME_COORTE)",
+  "caminho_silver": "C:\\Users\\daviw\\Downloads\\av3bigdata\\silver\\caged_nordeste_ml",
+  "particionamento": "ANO",
+  "count_antes_parquet": 33465,
+  "count_depois_parquet": 33465,
+  "parquet_validado": true,
+  "notebook_salvo": true
+}
